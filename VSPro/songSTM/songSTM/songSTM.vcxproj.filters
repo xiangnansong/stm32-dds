@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="song">
+      <UniqueIdentifier>{6bf7ca05-e04a-491e-ba1d-3ab54b687b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="song\source">
+      <UniqueIdentifier>{68503882-19c5-4e8a-bee1-3adbc689e57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="song\head">
+      <UniqueIdentifier>{db823e7b-8c01-4873-8bf0-1b896d812998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UCOS">
+      <UniqueIdentifier>{f79611e6-00dc-481b-83ef-116dc14bbcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UCOS\head">
+      <UniqueIdentifier>{6d809914-a278-477a-9be6-69b3984f9cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UCOS\source">
+      <UniqueIdentifier>{20e1a487-754a-4b6c-aa01-ac5f98b3285c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MDKPro\USER\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_IO.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_NVIC.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_user_lcd.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_gpio_spi.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_touch.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_i2cinit.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_spi.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_matrix.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_dds.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\USER\f.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_timer.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\USER\atk_ncr.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\USER\lcd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_usart.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_hc05.c">
+      <Filter>song\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\PORT\os_cpu_c.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_core.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_flag.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_mbox.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_mem.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_mutex.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_q.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_sem.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_task.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_time.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_tmr.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\ucos_ii.c">
+      <Filter>UCOS\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_IO.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_NVIC.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_font.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_user_lcd.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_gpio_spi.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_touch.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_i2cinit.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_spi.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_matrix.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_dds.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\USER\f.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_timer.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\USER\atk_ncr.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\USER\font.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\USER\lcd.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_usart.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_tmp_font.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_hc05.h">
+      <Filter>song\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\OS\CONFIG\includes.h">
+      <Filter>UCOS\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\OS\CONFIG\os_cfg.h">
+      <Filter>UCOS\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\OS\CORE\ucos_ii.h">
+      <Filter>UCOS\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MDKPro\OS\PORT\os_cpu.h">
+      <Filter>UCOS\head</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\MDKPro\OS\PORT\os_cpu_a.asm">
+      <Filter>UCOS\source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

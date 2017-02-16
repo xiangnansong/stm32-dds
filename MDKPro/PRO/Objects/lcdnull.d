@@ -1,0 +1,15 @@
+.\objects\lcdnull.o: ..\GUI\LCDDriver\LCDNull.c
+.\objects\lcdnull.o: ..\GUI\Core\LCD_Private.h
+.\objects\lcdnull.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\lcdnull.o: ..\GUI\Config\LCDConf.h
+.\objects\lcdnull.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\lcdnull.o: ..\GUI\Config\GUIConf.h
+.\objects\lcdnull.o: ..\GUI\Core\LCD_Protected.h
+.\objects\lcdnull.o: ..\GUI\Core\LCD.h
+.\objects\lcdnull.o: ..\GUI\Core\GUI.h
+.\objects\lcdnull.o: ..\GUI\Core\GUIType.h
+.\objects\lcdnull.o: ..\GUI\Core\GUIVersion.h
+.\objects\lcdnull.o: ..\GUI\Core\GUI_Private.h
+.\objects\lcdnull.o: ..\GUI\Core\GUI_Protected.h
+.\objects\lcdnull.o: ..\GUI\Core\GUIDebug.h
+.\objects\lcdnull.o: ..\GUI\Core\GUI_X.h

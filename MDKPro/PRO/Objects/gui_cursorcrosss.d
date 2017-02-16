@@ -1,0 +1,12 @@
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUI_CursorCrossS.c
+.\objects\gui_cursorcrosss.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUI_Protected.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUI.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Config\GUIConf.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUIType.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\LCD.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUIVersion.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\LCD_Protected.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUIDebug.h
+.\objects\gui_cursorcrosss.o: ..\GUI\Core\GUI_X.h

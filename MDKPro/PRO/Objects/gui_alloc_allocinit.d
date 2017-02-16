@@ -1,0 +1,13 @@
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUI_ALLOC_AllocInit.c
+.\objects\gui_alloc_allocinit.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_alloc_allocinit.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUI_Protected.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUI.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Config\GUIConf.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUIType.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\LCD.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUIVersion.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\LCD_Protected.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUIDebug.h
+.\objects\gui_alloc_allocinit.o: ..\GUI\Core\GUI_X.h

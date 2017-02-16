@@ -1,0 +1,12 @@
+.\objects\guitask.o: ..\GUI\Core\GUITask.c
+.\objects\guitask.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guitask.o: ..\GUI\Core\GUI_Protected.h
+.\objects\guitask.o: ..\GUI\Core\GUI.h
+.\objects\guitask.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\guitask.o: ..\GUI\Config\GUIConf.h
+.\objects\guitask.o: ..\GUI\Core\GUIType.h
+.\objects\guitask.o: ..\GUI\Core\LCD.h
+.\objects\guitask.o: ..\GUI\Core\GUIVersion.h
+.\objects\guitask.o: ..\GUI\Core\LCD_Protected.h
+.\objects\guitask.o: ..\GUI\Core\GUIDebug.h
+.\objects\guitask.o: ..\GUI\Core\GUI_X.h

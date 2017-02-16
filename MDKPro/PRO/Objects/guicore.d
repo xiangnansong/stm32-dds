@@ -1,0 +1,16 @@
+.\objects\guicore.o: ..\GUI\Core\GUICore.c
+.\objects\guicore.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guicore.o: ..\GUI\Core\GUI_Private.h
+.\objects\guicore.o: ..\GUI\Core\GUI_Protected.h
+.\objects\guicore.o: ..\GUI\Core\GUI.h
+.\objects\guicore.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\guicore.o: ..\GUI\Config\GUIConf.h
+.\objects\guicore.o: ..\GUI\Core\GUIType.h
+.\objects\guicore.o: ..\GUI\Core\LCD.h
+.\objects\guicore.o: ..\GUI\Core\GUIVersion.h
+.\objects\guicore.o: ..\GUI\Core\LCD_Protected.h
+.\objects\guicore.o: ..\GUI\Core\GUIDebug.h
+.\objects\guicore.o: ..\GUI\Core\GUI_X.h
+.\objects\guicore.o: ..\GUI\Core\LCD_Private.h
+.\objects\guicore.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\guicore.o: ..\GUI\Config\LCDConf.h

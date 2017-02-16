@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13F66026-0810-423C-B9A3-AFD07E8BB9E4}</ProjectGuid>
+    <RootNamespace>songSTM</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\song\Desktop\songSTM\MDKPro\OS\PORT;C:\Users\song\Desktop\songSTM\MDKPro\OS\CORE;C:\Users\song\Desktop\songSTM\MDKPro\OS\CONFIG;C:\Users\song\Desktop\songSTM\MDKPro\GUI\Widget;C:\Users\song\Desktop\songSTM\MDKPro\GUI\AntiAlias;C:\Users\song\Desktop\songSTM\MDKPro\GUI\MultiLayer;C:\Users\song\Desktop\songSTM\MDKPro\GUI\ConvertColor;C:\Users\song\Desktop\songSTM\MDKPro\LIB\CMSIS\CM3\CoreSupport;C:\Users\song\Desktop\songSTM\MDKPro\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x;C:\Users\song\Desktop\songSTM\MDKPro\GUI\Core;C:\Users\song\Desktop\songSTM\MDKPro\GUI\LCDDriver;C:\Users\song\Desktop\songSTM\MDKPro\GUI\Config;C:\Users\song\Desktop\songSTM\MDKPro\GUI\WM;C:\Users\song\Desktop\songSTM\MDKPro\USER;C:\Users\song\Desktop\songSTM\MDKPro\SONG;C:\Users\song\Desktop\songSTM\MDKPro\LIB\STM32F10x_StdPeriph_Driver\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_core.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_flag.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_mbox.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_mem.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_mutex.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_q.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_sem.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_task.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_time.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\os_tmr.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\CORE\ucos_ii.c" />
+    <ClCompile Include="..\..\..\MDKPro\OS\PORT\os_cpu_c.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_dds.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_gpio_spi.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_hc05.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_i2cinit.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_IO.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_matrix.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_NVIC.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_spi.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_timer.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_touch.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_usart.c" />
+    <ClCompile Include="..\..\..\MDKPro\SONG\song_user_lcd.c" />
+    <ClCompile Include="..\..\..\MDKPro\USER\atk_ncr.c" />
+    <ClCompile Include="..\..\..\MDKPro\USER\f.c" />
+    <ClCompile Include="..\..\..\MDKPro\USER\lcd.c" />
+    <ClCompile Include="..\..\..\MDKPro\USER\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\MDKPro\OS\CONFIG\includes.h" />
+    <ClInclude Include="..\..\..\MDKPro\OS\CONFIG\os_cfg.h" />
+    <ClInclude Include="..\..\..\MDKPro\OS\CORE\ucos_ii.h" />
+    <ClInclude Include="..\..\..\MDKPro\OS\PORT\os_cpu.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_dds.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_font.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_gpio_spi.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_hc05.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_i2cinit.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_IO.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_matrix.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_NVIC.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_spi.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_timer.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_tmp_font.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_touch.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_usart.h" />
+    <ClInclude Include="..\..\..\MDKPro\SONG\song_user_lcd.h" />
+    <ClInclude Include="..\..\..\MDKPro\USER\atk_ncr.h" />
+    <ClInclude Include="..\..\..\MDKPro\USER\f.h" />
+    <ClInclude Include="..\..\..\MDKPro\USER\font.h" />
+    <ClInclude Include="..\..\..\MDKPro\USER\lcd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\MDKPro\OS\PORT\os_cpu_a.asm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

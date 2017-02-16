@@ -1,0 +1,16 @@
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\LCD_MixColors256.c
+.\objects\lcd_mixcolors256.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\LCD.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Config\GUIConf.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUI_Private.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUI_Protected.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUI.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUIType.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUIVersion.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\LCD_Protected.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUIDebug.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\GUI_X.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\LCD_Private.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\lcd_mixcolors256.o: ..\GUI\Config\LCDConf.h

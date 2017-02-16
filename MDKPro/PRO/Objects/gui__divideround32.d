@@ -1,0 +1,11 @@
+.\objects\gui__divideround32.o: ..\GUI\Core\GUI__DivideRound32.c
+.\objects\gui__divideround32.o: ..\GUI\Core\GUI_Protected.h
+.\objects\gui__divideround32.o: ..\GUI\Core\GUI.h
+.\objects\gui__divideround32.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\gui__divideround32.o: ..\GUI\Config\GUIConf.h
+.\objects\gui__divideround32.o: ..\GUI\Core\GUIType.h
+.\objects\gui__divideround32.o: ..\GUI\Core\LCD.h
+.\objects\gui__divideround32.o: ..\GUI\Core\GUIVersion.h
+.\objects\gui__divideround32.o: ..\GUI\Core\LCD_Protected.h
+.\objects\gui__divideround32.o: ..\GUI\Core\GUIDebug.h
+.\objects\gui__divideround32.o: ..\GUI\Core\GUI_X.h

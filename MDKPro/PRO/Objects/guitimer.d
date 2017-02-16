@@ -1,0 +1,12 @@
+.\objects\guitimer.o: ..\GUI\Core\GUITimer.c
+.\objects\guitimer.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guitimer.o: ..\GUI\Core\GUI_Protected.h
+.\objects\guitimer.o: ..\GUI\Core\GUI.h
+.\objects\guitimer.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\guitimer.o: ..\GUI\Config\GUIConf.h
+.\objects\guitimer.o: ..\GUI\Core\GUIType.h
+.\objects\guitimer.o: ..\GUI\Core\LCD.h
+.\objects\guitimer.o: ..\GUI\Core\GUIVersion.h
+.\objects\guitimer.o: ..\GUI\Core\LCD_Protected.h
+.\objects\guitimer.o: ..\GUI\Core\GUIDebug.h
+.\objects\guitimer.o: ..\GUI\Core\GUI_X.h

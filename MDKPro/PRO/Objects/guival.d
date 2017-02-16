@@ -1,0 +1,12 @@
+.\objects\guival.o: ..\GUI\Core\GUIVal.c
+.\objects\guival.o: ..\GUI\Core\GUI_Protected.h
+.\objects\guival.o: ..\GUI\Core\GUI.h
+.\objects\guival.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\guival.o: ..\GUI\Config\GUIConf.h
+.\objects\guival.o: ..\GUI\Core\GUIType.h
+.\objects\guival.o: ..\GUI\Core\LCD.h
+.\objects\guival.o: ..\GUI\Core\GUIVersion.h
+.\objects\guival.o: ..\GUI\Core\LCD_Protected.h
+.\objects\guival.o: ..\GUI\Core\GUIDebug.h
+.\objects\guival.o: ..\GUI\Core\GUI_X.h
+.\objects\guival.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\string.h

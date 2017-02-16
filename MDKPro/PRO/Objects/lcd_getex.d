@@ -1,0 +1,12 @@
+.\objects\lcd_getex.o: ..\GUI\Core\LCD_GetEx.c
+.\objects\lcd_getex.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_getex.o: ..\GUI\Core\LCD.h
+.\objects\lcd_getex.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\lcd_getex.o: ..\GUI\Config\GUIConf.h
+.\objects\lcd_getex.o: ..\GUI\Core\LCD_Private.h
+.\objects\lcd_getex.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\lcd_getex.o: ..\GUI\Config\LCDConf.h
+.\objects\lcd_getex.o: ..\GUI\Core\LCD_Protected.h
+.\objects\lcd_getex.o: ..\GUI\Core\GUI.h
+.\objects\lcd_getex.o: ..\GUI\Core\GUIType.h
+.\objects\lcd_getex.o: ..\GUI\Core\GUIVersion.h

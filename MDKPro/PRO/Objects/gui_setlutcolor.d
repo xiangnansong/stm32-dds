@@ -1,0 +1,14 @@
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUI_SetLUTColor.c
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUI_Protected.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUI.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\gui_setlutcolor.o: ..\GUI\Config\GUIConf.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUIType.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\LCD.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUIVersion.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\LCD_Protected.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUIDebug.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\GUI_X.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\LCD_Private.h
+.\objects\gui_setlutcolor.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\gui_setlutcolor.o: ..\GUI\Config\LCDConf.h

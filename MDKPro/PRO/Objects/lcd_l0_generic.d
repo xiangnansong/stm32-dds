@@ -1,0 +1,16 @@
+.\objects\lcd_l0_generic.o: ..\GUI\Core\LCD_L0_Generic.c
+.\objects\lcd_l0_generic.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\LCD_Private.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\lcd_l0_generic.o: ..\GUI\Config\LCDConf.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\lcd_l0_generic.o: ..\GUI\Config\GUIConf.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\LCD_Protected.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\LCD.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUI.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUIType.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUIVersion.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUI_Private.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUI_Protected.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUIDebug.h
+.\objects\lcd_l0_generic.o: ..\GUI\Core\GUI_X.h

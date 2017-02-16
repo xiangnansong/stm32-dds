@@ -1,0 +1,13 @@
+.\objects\guiarc.o: ..\GUI\Core\GUIArc.c
+.\objects\guiarc.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guiarc.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\guiarc.o: ..\GUI\Core\GUI_Protected.h
+.\objects\guiarc.o: ..\GUI\Core\GUI.h
+.\objects\guiarc.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\guiarc.o: ..\GUI\Config\GUIConf.h
+.\objects\guiarc.o: ..\GUI\Core\GUIType.h
+.\objects\guiarc.o: ..\GUI\Core\LCD.h
+.\objects\guiarc.o: ..\GUI\Core\GUIVersion.h
+.\objects\guiarc.o: ..\GUI\Core\LCD_Protected.h
+.\objects\guiarc.o: ..\GUI\Core\GUIDebug.h
+.\objects\guiarc.o: ..\GUI\Core\GUI_X.h

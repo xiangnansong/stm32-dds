@@ -1,0 +1,16 @@
+.\objects\guicharm.o: ..\GUI\Core\GUICharM.c
+.\objects\guicharm.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guicharm.o: ..\GUI\Core\GUI_Private.h
+.\objects\guicharm.o: ..\GUI\Core\GUI_Protected.h
+.\objects\guicharm.o: ..\GUI\Core\GUI.h
+.\objects\guicharm.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\guicharm.o: ..\GUI\Config\GUIConf.h
+.\objects\guicharm.o: ..\GUI\Core\GUIType.h
+.\objects\guicharm.o: ..\GUI\Core\LCD.h
+.\objects\guicharm.o: ..\GUI\Core\GUIVersion.h
+.\objects\guicharm.o: ..\GUI\Core\LCD_Protected.h
+.\objects\guicharm.o: ..\GUI\Core\GUIDebug.h
+.\objects\guicharm.o: ..\GUI\Core\GUI_X.h
+.\objects\guicharm.o: ..\GUI\Core\LCD_Private.h
+.\objects\guicharm.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\guicharm.o: ..\GUI\Config\LCDConf.h

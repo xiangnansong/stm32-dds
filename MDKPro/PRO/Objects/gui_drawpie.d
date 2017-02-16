@@ -1,0 +1,12 @@
+.\objects\gui_drawpie.o: ..\GUI\Core\GUI_DrawPie.c
+.\objects\gui_drawpie.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_drawpie.o: ..\GUI\Core\GUI_Protected.h
+.\objects\gui_drawpie.o: ..\GUI\Core\GUI.h
+.\objects\gui_drawpie.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\gui_drawpie.o: ..\GUI\Config\GUIConf.h
+.\objects\gui_drawpie.o: ..\GUI\Core\GUIType.h
+.\objects\gui_drawpie.o: ..\GUI\Core\LCD.h
+.\objects\gui_drawpie.o: ..\GUI\Core\GUIVersion.h
+.\objects\gui_drawpie.o: ..\GUI\Core\LCD_Protected.h
+.\objects\gui_drawpie.o: ..\GUI\Core\GUIDebug.h
+.\objects\gui_drawpie.o: ..\GUI\Core\GUI_X.h

@@ -1,0 +1,12 @@
+.\objects\lcdinfo1.o: ..\GUI\Core\LCDInfo1.c
+.\objects\lcdinfo1.o: D:\Windows\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcdinfo1.o: ..\GUI\Core\LCD.h
+.\objects\lcdinfo1.o: ..\GUI\Core\GUI_ConfDefaults.h
+.\objects\lcdinfo1.o: ..\GUI\Config\GUIConf.h
+.\objects\lcdinfo1.o: ..\GUI\Core\LCD_Private.h
+.\objects\lcdinfo1.o: ..\GUI\Core\LCD_ConfDefaults.h
+.\objects\lcdinfo1.o: ..\GUI\Config\LCDConf.h
+.\objects\lcdinfo1.o: ..\GUI\Core\LCD_Protected.h
+.\objects\lcdinfo1.o: ..\GUI\Core\GUI.h
+.\objects\lcdinfo1.o: ..\GUI\Core\GUIType.h
+.\objects\lcdinfo1.o: ..\GUI\Core\GUIVersion.h
